@@ -1,0 +1,23 @@
+.btn {
+    white-space: nowrap;
+    outline: 0 !important;
+}
+
+.btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.btn-roadmap {
+    font-size: 24px;
+    background: transparent;
+    border: 5px $white-color solid !important;
+    box-shadow: -3px -3px 0px #00d2ff, 3px 3px 0px #c500ff;
+
+    &:hover {
+        background: transparent;
+        transition: all ease-in-out 0.2s;
+        /* opacity: .8; */
+        color: $white-color !important;
+    }
+}
